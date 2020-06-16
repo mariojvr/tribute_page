@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    background-color: #c2d6d6;
+    display: grid;
+    justify-items: center;
+}
+
+header {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    margin: 1em 0 0;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 3em;
+}
+
+.img-div {
+    background-color: #ffffff;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+}
+
+.image {
+    display: block;
+    margin: 2em auto 0;
+    max-width: 28em;
+}
+
+.img-caption {
+    font-size: 1.3em;
+    margin: 0.5em 0 0.5em 0;
+    text-align: center;
+}
+
+.main {
+    font-size: 1.3em;
+}
+
+.tribute-info {
+    display: grid;
+    justify-items: center;
+    margin: 2em 0 0 2em;
+}
+
+.tribute-info ul {
+    padding: 3em;
+    text-align: justify;
+}
+
+.reference {
+    line-height: 1.4em;
+    padding: 0 20em;
+    text-align: justify;
+}
+
+.see-more {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 2em 0;
+}
+
+@media (max-width: 740px){
+
+    .title {
+        font-size: 2.0em;
+    }
+
+    .sub-title {
+        font-size: 1.5em;
+    }
+
+    .img-div {
+        border-radius: 0.5em;
+        width: 98vw;
+    }
+
+    .image {
+        margin: 2em auto 0;
+        max-width: 15em;
+    }
+
+    .img-caption {
+        font-size: 1em;
+    }
+
+    .tribute-info {
+        margin: 2em 1em 0 1em;
+    }
+
+    .tribute-info ul {
+        padding: 1em 1em;
+    }
+
+    .reference {
+        line-height: 1.4em;
+        padding: 0 0.5em;
+        text-align: justify;
+    }
+
+    .see-more {
+        margin: 0 1em;
+    }
+}
